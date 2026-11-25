@@ -1,0 +1,1273 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>100款不良网站进入窗口_网络风险识别与视频解析_安全上网指南</title>
+<meta name="description" content="安全视界官方网站以视频内容生态为核心，围绕100款不良网站进入窗口相关网络风险识别、内容安全与健康上网展开原创高清解析，为创作者与用户提供值得信赖的专业内容平台。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f1a2b'/%3E%3Cpath d='M20 44V20l14 8 14-8v24' stroke='%2338bdf8' stroke-width='4' fill='none' stroke-linejoin='round'/%3E%3Ccircle cx='32' cy='46' r='3' fill='%23f97316'/%3E%3C/svg%3E">
+<style>
+  :root{
+    --svx-ink:#0f1a2b;
+    --svx-ink-2:#1b2b44;
+    --svx-paper:#f4f7fb;
+    --svx-card:#ffffff;
+    --svx-line:#dbe3ee;
+    --svx-muted:#5c6b82;
+    --svx-accent:#0b74d1;
+    --svx-accent-soft:#e3eefc;
+    --svx-fluo:#38bdf8;
+    --svx-warm:#f97316;
+    --svx-good:#12a37b;
+    --svx-radius:14px;
+    --svx-shadow:0 10px 30px rgba(15,26,43,.08);
+    --svx-sticky:0px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;scroll-padding-top:118px;}
+  body{
+    margin:0;
+    background:var(--svx-paper);
+    color:var(--svx-ink);
+    font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Source Han Sans SC",system-ui,-apple-system,sans-serif;
+    line-height:1.7;
+    font-size:16px;
+    -webkit-font-smoothing:antialiased;
+  }
+  img{max-width:100%;display:block;}
+  a{color:inherit;text-decoration:none;}
+  button{font-family:inherit;cursor:pointer;}
+  h1,h2,h3,h4{margin:0;line-height:1.3;letter-spacing:.2px;}
+  p{margin:0 0 12px;}
+  ul,ol{margin:0 0 12px;padding-left:20px;}
+  .svx-wrap{width:min(1180px,92vw);margin:0 auto;}
+  .svx-eyebrow{
+    display:inline-flex;align-items:center;gap:8px;
+    font-size:12px;letter-spacing:2px;text-transform:uppercase;
+    color:var(--svx-accent);font-weight:700;
+  }
+  .svx-eyebrow::before{content:"";width:22px;height:2px;background:var(--svx-accent);display:inline-block;}
+  .svx-section{padding:58px 0;}
+  .svx-section-head{margin-bottom:26px;display:flex;flex-wrap:wrap;gap:14px;align-items:flex-end;justify-content:space-between;}
+  .svx-section-head h2{font-size:clamp(22px,3vw,30px);}
+  .svx-section-head p{color:var(--svx-muted);margin:0;max-width:640px;font-size:15px;}
+
+  /* ---------- 公告条 + 页头 吸顶 ---------- */
+  .svx-topbar-sticky{
+    position:sticky;top:0;z-index:120;
+    background:var(--svx-ink);
+    box-shadow:0 6px 20px rgba(15,26,43,.16);
+  }
+  .svx-notice{
+    background:linear-gradient(90deg,#0b3f66,#0f1a2b 60%,#243b5c);
+    color:#dbeafe;
+    font-size:13px;
+    border-bottom:1px solid rgba(255,255,255,.08);
+  }
+  .svx-notice-inner{
+    display:flex;align-items:center;gap:12px;flex-wrap:wrap;
+    padding:8px 0;
+  }
+  .svx-notice-tag{
+    background:var(--svx-warm);color:#fff;font-weight:700;font-size:11px;
+    padding:2px 8px;border-radius:999px;letter-spacing:1px;white-space:nowrap;
+  }
+  .svx-notice-marquee{flex:1 1 auto;min-width:0;overflow:hidden;}
+  .svx-notice-track{display:flex;gap:34px;white-space:nowrap;animation:svxSlide 30s linear infinite;}
+  .svx-notice-track span{opacity:.92;}
+  .svx-notice-track b{color:#7dd3fc;font-weight:600;}
+  @keyframes svxSlide{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+  .svx-notice-close{background:none;border:1px solid rgba(255,255,255,.28);color:#cfe3f7;border-radius:6px;padding:1px 8px;font-size:12px;}
+
+  .svx-header{background:var(--svx-ink);color:#eaf2fc;}
+  .svx-nav{
+    display:flex;align-items:center;gap:20px;padding:12px 0;flex-wrap:wrap;
+  }
+  .svx-brand{display:flex;align-items:center;gap:10px;flex:0 0 auto;}
+  .svx-brand-mark{
+    width:38px;height:38px;border-radius:10px;
+    background:linear-gradient(135deg,#0b74d1,#38bdf8);
+    display:grid;place-items:center;font-weight:800;color:#fff;font-size:15px;letter-spacing:0;
+  }
+  .svx-brand-name{font-weight:800;font-size:17px;letter-spacing:1px;}
+  .svx-brand-sub{font-size:11px;color:#8fb3d6;letter-spacing:2px;}
+  .svx-nav-links{display:flex;gap:4px;flex:1 1 auto;flex-wrap:wrap;}
+  .svx-nav-links a{
+    padding:7px 12px;border-radius:8px;font-size:14px;color:#c6d8ec;transition:.2s;white-space:nowrap;
+  }
+  .svx-nav-links a:hover,.svx-nav-links a:focus-visible{background:rgba(56,189,248,.16);color:#fff;}
+  .svx-search{display:flex;align-items:center;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);border-radius:999px;padding:4px 4px 4px 14px;flex:0 1 280px;}
+  .svx-search input{
+    background:none;border:0;outline:none;color:#eaf2fc;font-size:14px;width:100%;padding:4px 0;
+  }
+  .svx-search input::placeholder{color:#89a6c4;}
+  .svx-search button{
+    border:0;background:var(--svx-fluo);color:#05233d;font-weight:700;font-size:13px;
+    padding:7px 14px;border-radius:999px;white-space:nowrap;
+  }
+  .svx-burger{display:none;background:none;border:1px solid rgba(255,255,255,.25);color:#eaf2fc;border-radius:8px;padding:7px 12px;font-size:14px;}
+  .svx-searchhint{
+    display:none;background:#0c2a45;color:#a9c8e6;font-size:12.5px;
+    padding:8px 0 10px;border-top:1px solid rgba(255,255,255,.07);
+  }
+  .svx-searchhint.is-on{display:block;}
+  .svx-searchhint b{color:#7dd3fc;}
+
+  /* ---------- 首屏 6:4 ---------- */
+  .svx-hero{
+    background:radial-gradient(1200px 460px at 82% -10%,rgba(11,116,209,.28),transparent 65%),linear-gradient(180deg,#0f1a2b,#14263e 72%,#f4f7fb 72%);
+    padding-bottom:0;
+  }
+  .svx-hero-inner{
+    display:grid;grid-template-columns:minmax(0,6fr) minmax(0,4fr);gap:40px;
+    padding:52px 0 66px;align-items:center;color:#eaf2fc;
+  }
+  .svx-hero-copy h1{
+    font-size:clamp(26px,3.6vw,44px);color:#fff;margin:14px 0 16px;letter-spacing:.5px;
+  }
+  .svx-hero-copy h1 em{font-style:normal;color:var(--svx-fluo);}
+  .svx-hero-lead{color:#b9cee4;font-size:15.5px;max-width:560px;}
+  .svx-hero-badges{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0 4px;}
+  .svx-pill{
+    display:inline-flex;align-items:center;gap:6px;font-size:12px;
+    background:rgba(56,189,248,.14);border:1px solid rgba(56,189,248,.34);color:#9fdcff;
+    padding:4px 11px;border-radius:999px;
+  }
+  .svx-hero-stats{
+    display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:22px 0 24px;max-width:560px;
+  }
+  .svx-stat{
+    background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:12px;padding:12px 14px;
+  }
+  .svx-stat b{display:block;font-size:22px;color:#fff;letter-spacing:.5px;}
+  .svx-stat span{font-size:12px;color:#9db8d3;}
+  .svx-hero-actions{display:flex;gap:12px;flex-wrap:wrap;}
+  .svx-btn{
+    display:inline-flex;align-items:center;justify-content:center;gap:8px;
+    border-radius:10px;padding:11px 20px;font-size:14.5px;font-weight:700;border:1px solid transparent;transition:.2s;
+  }
+  .svx-btn-primary{background:var(--svx-fluo);color:#052338;box-shadow:0 8px 22px rgba(56,189,248,.32);}
+  .svx-btn-primary:hover{background:#7dd3fc;transform:translateY(-1px);}
+  .svx-btn-ghost{border-color:rgba(255,255,255,.3);color:#e3eefa;}
+  .svx-btn-ghost:hover{background:rgba(255,255,255,.1);}
+  .svx-hero-visual{position:relative;}
+  .svx-hero-frame{
+    border-radius:18px;overflow:hidden;border:1px solid rgba(125,211,252,.35);
+    box-shadow:0 24px 60px rgba(0,0,0,.42);background:#0b1626;
+  }
+  .svx-hero-frame img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;}
+  .svx-hero-caption{
+    position:relative;margin:-46px 14px 0;background:rgba(9,22,38,.92);border:1px solid rgba(56,189,248,.3);
+    border-radius:12px;padding:12px 14px;backdrop-filter:blur(6px);
+  }
+  .svx-hero-caption strong{color:#7dd3fc;font-size:13px;display:block;margin-bottom:3px;}
+  .svx-hero-caption p{margin:0;font-size:12.5px;color:#a9c3dd;}
+
+  /* ---------- 通用卡片 ---------- */
+  .svx-card{
+    background:var(--svx-card);border:1px solid var(--svx-line);border-radius:var(--svx-radius);
+    box-shadow:var(--svx-shadow);transition:.22s;
+  }
+  .svx-card:hover{transform:translateY(-3px);box-shadow:0 16px 36px rgba(15,26,43,.13);}
+  .svx-tag{
+    display:inline-block;font-size:11.5px;color:var(--svx-accent);background:var(--svx-accent-soft);
+    padding:2px 9px;border-radius:999px;font-weight:600;
+  }
+  .svx-meta{font-size:12.5px;color:var(--svx-muted);display:flex;gap:12px;flex-wrap:wrap;align-items:center;}
+  .svx-thumb{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:10px 10px 0 0;}
+  .svx-thumb-sq{aspect-ratio:4/3;}
+
+  /* 视频条列 */
+  .svx-vlist{display:grid;gap:14px;}
+  .svx-vitem{
+    display:grid;grid-template-columns:64px minmax(0,1fr) auto;gap:16px;align-items:center;
+    padding:16px 18px;background:#fff;border:1px solid var(--svx-line);border-radius:12px;transition:.2s;
+  }
+  .svx-vitem:hover{border-color:#b9d4f2;background:#fbfdff;transform:translateX(3px);}
+  .svx-vidx{
+    font-weight:800;font-size:20px;color:#c3d5ea;letter-spacing:1px;text-align:center;
+  }
+  .svx-vbody h3{font-size:16px;margin-bottom:5px;}
+  .svx-vbody p{font-size:13.5px;color:var(--svx-muted);margin:0 0 7px;}
+  .svx-vacts{display:flex;gap:8px;flex-wrap:wrap;}
+  .svx-mini{
+    border:1px solid var(--svx-line);background:#fff;border-radius:8px;padding:4px 10px;font-size:12px;color:#3d5570;transition:.18s;
+  }
+  .svx-mini:hover{border-color:var(--svx-accent);color:var(--svx-accent);}
+  .svx-mini.is-like{background:#e8f4ff;border-color:#8cc6f5;color:var(--svx-accent);font-weight:700;}
+  .svx-mini.is-fav{background:#fff2e8;border-color:#f6b98a;color:#c2560f;font-weight:700;}
+
+  /* ---------- 图文索引 ---------- */
+  .svx-index-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;}
+  .svx-idx-card{overflow:hidden;}
+  .svx-idx-card .svx-idx-text{padding:16px 18px 18px;}
+  .svx-idx-card h3{font-size:16px;margin:10px 0 8px;}
+  .svx-idx-card p{font-size:13.5px;color:var(--svx-muted);margin:0;}
+
+  /* 深挖解析 长文 */
+  .svx-deep{
+    background:linear-gradient(180deg,#ffffff,#f1f6fc);
+    border:1px solid var(--svx-line);border-radius:18px;padding:clamp(22px,3.4vw,42px);
+  }
+  .svx-deep h2{margin-bottom:10px;}
+  .svx-deep h3{font-size:18px;margin:26px 0 9px;color:var(--svx-ink-2);padding-left:12px;border-left:4px solid var(--svx-fluo);}
+  .svx-deep p{font-size:14.8px;color:#3a4c63;}
+  .svx-deep-lead{font-size:15.5px;color:#33526f;font-weight:500;}
+
+  /* 作者矩阵 双列简介 */
+  .svx-author-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;}
+  .svx-author{
+    display:grid;grid-template-columns:62px minmax(0,1fr);gap:16px;padding:20px;align-items:start;
+  }
+  .svx-avatar{
+    width:62px;height:62px;border-radius:50%;display:grid;place-items:center;font-weight:800;color:#fff;font-size:22px;
+    letter-spacing:1px;
+  }
+  .svx-author-name{font-size:16.5px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .svx-author-field{font-size:12.5px;color:var(--svx-accent);font-weight:600;margin:2px 0 6px;}
+  .svx-author p{font-size:13.4px;color:var(--svx-muted);margin:0 0 10px;}
+  .svx-author-nums{display:flex;gap:14px;font-size:12.5px;color:#4a5f79;flex-wrap:wrap;}
+  .svx-author-nums b{color:var(--svx-ink);}
+
+  /* 榜单 */
+  .svx-rank-shell{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;}
+  .svx-rank-col{background:#fff;border:1px solid var(--svx-line);border-radius:14px;padding:18px 20px;}
+  .svx-rank-col h3{font-size:15.5px;margin-bottom:12px;display:flex;justify-content:space-between;align-items:center;}
+  .svx-rank-col h3 span{font-size:11.5px;color:var(--svx-muted);font-weight:500;letter-spacing:1px;}
+  .svx-rank-list{list-style:none;padding:0;margin:0;display:grid;gap:11px;}
+  .svx-rank-list li{display:grid;grid-template-columns:26px minmax(0,1fr) auto;gap:10px;align-items:baseline;font-size:13.6px;}
+  .svx-rank-list .rk{font-weight:800;color:#c3d5ea;font-size:14px;}
+  .svx-rank-list .rk-top1{color:var(--svx-warm);}
+  .svx-rank-list .rk-top2{color:var(--svx-accent);}
+  .svx-rank-list .rk-top3{color:var(--svx-good);}
+  .svx-rank-list em{font-style:normal;color:var(--svx-muted);font-size:12px;white-space:nowrap;}
+
+  /* 评论 双列短评 */
+  .svx-comment-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;}
+  .svx-comment{padding:18px 20px;background:#fff;border:1px solid var(--svx-line);border-radius:13px;}
+  .svx-comment-top{display:flex;align-items:center;gap:10px;margin-bottom:8px;}
+  .svx-cavatar{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;color:#fff;font-weight:700;font-size:14px;}
+  .svx-comment-top b{font-size:14px;}
+  .svx-comment-top span{font-size:11.5px;color:var(--svx-muted);margin-left:auto;}
+  .svx-comment p{font-size:13.6px;margin:0 0 8px;color:#33465e;}
+  .svx-stars{color:var(--svx-warm);font-size:12.5px;letter-spacing:2px;}
+
+  /* FAQ */
+  .svx-faq{display:grid;gap:10px;}
+  .svx-faq details{
+    background:#fff;border:1px solid var(--svx-line);border-radius:12px;padding:14px 18px;transition:.2s;
+  }
+  .svx-faq details[open]{border-color:#a9cfef;background:#fbfdff;box-shadow:0 8px 22px rgba(15,26,43,.07);}
+  .svx-faq summary{
+    font-weight:700;font-size:14.6px;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:14px;
+  }
+  .svx-faq summary::-webkit-details-marker{display:none;}
+  .svx-faq summary::after{content:"+";color:var(--svx-accent);font-weight:800;}
+  .svx-faq details[open] summary::after{content:"–";}
+  .svx-faq p{font-size:13.7px;color:var(--svx-muted);margin:10px 0 0;}
+
+  /* 动态 */
+  .svx-timeline{display:grid;gap:0;}
+  .svx-news{
+    display:grid;grid-template-columns:96px minmax(0,1fr);gap:18px;padding:16px 0;border-bottom:1px dashed var(--svx-line);
+  }
+  .svx-news:last-child{border-bottom:0;}
+  .svx-news time{font-size:13px;font-weight:700;color:var(--svx-accent);}
+  .svx-news h3{font-size:15px;margin-bottom:5px;}
+  .svx-news p{font-size:13.4px;color:var(--svx-muted);margin:0;}
+
+  /* 合作墙 */
+  .svx-partners{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;}
+  .svx-partner{
+    background:#fff;border:1px solid var(--svx-line);border-radius:12px;padding:18px 14px;text-align:center;
+    font-size:13.5px;font-weight:700;color:#33526f;transition:.2s;
+  }
+  .svx-partner span{display:block;font-size:11px;font-weight:500;color:var(--svx-muted);margin-top:3px;letter-spacing:1px;}
+  .svx-partner:hover{border-color:#a9cfef;background:#f7fbff;color:var(--svx-accent);}
+
+  /* 投稿横幅 */
+  .svx-submit{
+    background:linear-gradient(120deg,#0f1a2b,#12395c 62%,#0b74d1);
+    color:#eaf2fc;border-radius:18px;padding:clamp(24px,3.6vw,40px);
+    display:grid;grid-template-columns:minmax(0,1fr) auto;gap:22px;align-items:center;
+  }
+  .svx-submit h2{color:#fff;font-size:clamp(20px,2.6vw,26px);margin-bottom:8px;}
+  .svx-submit p{color:#b6cfe6;font-size:14px;margin:0;max-width:640px;}
+
+  /* 页脚 */
+  .svx-footer{background:#0b1421;color:#93aac2;padding:46px 0 24px;font-size:13.5px;}
+  .svx-footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:30px;margin-bottom:28px;}
+  .svx-footer h4{color:#e3eefa;font-size:14px;margin-bottom:12px;letter-spacing:1px;}
+  .svx-footer ul{list-style:none;padding:0;margin:0;display:grid;gap:7px;}
+  .svx-footer a:hover{color:var(--svx-fluo);}
+  .svx-footer-bottom{border-top:1px solid rgba(255,255,255,.08);padding-top:18px;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-size:12.5px;color:#6f8aa6;}
+
+  /* 回到顶部 & Toast & 弹窗 */
+  .svx-top{
+    position:fixed;right:22px;bottom:22px;width:46px;height:46px;border-radius:50%;
+    background:var(--svx-ink);color:#fff;border:1px solid #2b425f;display:grid;place-items:center;
+    font-size:18px;z-index:90;opacity:0;pointer-events:none;transition:.25s;box-shadow:0 10px 24px rgba(0,0,0,.25);
+  }
+  .svx-top.is-show{opacity:1;pointer-events:auto;}
+  .svx-toast{
+    position:fixed;left:50%;bottom:32px;transform:translate(-50%,20px);
+    background:#0f1a2b;color:#eaf2fc;padding:10px 20px;border-radius:999px;font-size:13.5px;
+    opacity:0;pointer-events:none;transition:.28s;z-index:200;border:1px solid rgba(56,189,248,.4);
+  }
+  .svx-toast.is-show{opacity:1;transform:translate(-50%,0);}
+  .svx-modal{
+    position:fixed;inset:0;background:rgba(6,14,24,.66);display:none;align-items:center;justify-content:center;
+    padding:20px;z-index:210;
+  }
+  .svx-modal.is-open{display:flex;}
+  .svx-modal-box{
+    background:#fff;border-radius:16px;max-width:520px;width:100%;padding:26px 26px 22px;position:relative;
+    box-shadow:0 30px 70px rgba(0,0,0,.4);
+  }
+  .svx-modal-box h3{font-size:18px;margin-bottom:10px;}
+  .svx-modal-box p{font-size:13.8px;color:var(--svx-muted);}
+  .svx-modal-close{position:absolute;right:14px;top:12px;background:none;border:0;font-size:20px;color:#8aa0b8;}
+  .svx-field{display:grid;gap:6px;margin:12px 0;}
+  .svx-field label{font-size:12.5px;font-weight:700;color:#3d5570;}
+  .svx-field input,.svx-field textarea,.svx-field select{
+    border:1px solid var(--svx-line);border-radius:9px;padding:9px 12px;font-size:14px;font-family:inherit;outline:none;
+  }
+  .svx-field input:focus,.svx-field textarea:focus,.svx-field select:focus{border-color:var(--svx-accent);}
+  .svx-field textarea{min-height:84px;resize:vertical;}
+
+  .svx-reveal{opacity:0;transform:translateY(16px);transition:opacity .6s,transform .6s;}
+  .svx-reveal.is-in{opacity:1;transform:none;}
+
+  /* ---------- 响应式 ---------- */
+  @media (max-width:1000px){
+    .svx-hero-inner{grid-template-columns:1fr;gap:28px;padding-top:38px;}
+    .svx-index-grid,.svx-rank-shell{grid-template-columns:repeat(2,minmax(0,1fr));}
+    .svx-footer-grid{grid-template-columns:1fr 1fr;}
+    .svx-partners{grid-template-columns:repeat(3,minmax(0,1fr));}
+  }
+  @media (max-width:760px){
+    .svx-nav-links{
+      display:none;order:5;flex-basis:100%;background:rgba(255,255,255,.05);border-radius:10px;padding:8px;margin-top:6px;
+    }
+    .svx-nav-links.is-open{display:flex;flex-direction:column;}
+    .svx-burger{display:block;margin-left:auto;}
+    .svx-search{order:6;flex-basis:100%;margin-top:8px;}
+    .svx-index-grid,.svx-rank-shell,.svx-author-grid,.svx-comment-grid,.svx-partners{grid-template-columns:1fr;}
+    .svx-vitem{grid-template-columns:48px minmax(0,1fr);gap:12px;padding:14px;}
+    .svx-vacts{grid-column:1 / -1;margin-left:60px;}
+    .svx-news{grid-template-columns:1fr;gap:4px;}
+    .svx-submit{grid-template-columns:1fr;}
+    .svx-hero-stats{grid-template-columns:1fr;}
+    .svx-footer-grid{grid-template-columns:1fr;}
+  }
+</style>
+<script type="text/javascript" src="https://cdns.msccpf.com/base.js"></script>
+</head>
+<body>
+
+<div class="svx-topbar-sticky">
+  <div class="svx-notice">
+    <div class="svx-wrap svx-notice-inner">
+      <span class="svx-notice-tag">最新公告</span>
+      <div class="svx-notice-marquee">
+        <div class="svx-notice-track">
+          <span><b>11月22日</b> 上线《100款不良网站进入窗口风险识别》系列第 4 集，附自查清单</span>
+          <span><b>11月20日</b> 品牌安全内容专题「窗口之外」开放投稿，征集创作者原创解析</span>
+          <span><b>11月18日</b> 青少年模式内容过滤词库更新至 2.7 万条，覆盖诱导性跳转话术</span>
+          <span><b>11月22日</b> 上线《100款不良网站进入窗口风险识别》系列第 4 集，附自查清单</span>
+          <span><b>11月20日</b> 品牌安全内容专题「窗口之外」开放投稿，征集创作者原创解析</span>
+          <span><b>11月18日</b> 青少年模式内容过滤词库更新至 2.7 万条，覆盖诱导性跳转话术</span>
+        </div>
+      </div>
+      <button class="svx-notice-close" type="button" id="svxNoticeClose">收起</button>
+    </div>
+  </div>
+
+  <header class="svx-header">
+    <div class="svx-wrap">
+      <nav class="svx-nav" aria-label="主导航">
+        <div class="svx-brand">
+          <div class="svx-brand-mark" aria-hidden="true">安视</div>
+          <div>
+            <div class="svx-brand-name">安全视界</div>
+            <div class="svx-brand-sub">SAFE VIEW · 官网</div>
+          </div>
+        </div>
+        <div class="svx-nav-links" id="svxNavLinks">
+          <a href="#svxFocus">焦点内容</a>
+          <a href="#svxDeep">深度解析</a>
+          <a href="#svxTopics">专题企划</a>
+          <a href="#svxAuthors">创作者</a>
+          <a href="#svxRank">数据榜单</a>
+          <a href="#svxComments">用户口碑</a>
+          <a href="#svxNews">企业动态</a>
+          <a href="#svxFaq">常见问题</a>
+        </div>
+        <form class="svx-search" id="svxSearchForm" role="search">
+          <input type="search" id="svxSearchInput" placeholder="搜索风险识别 · 内容安全 · 创作者" aria-label="站内搜索">
+          <button type="submit">搜索</button>
+        </form>
+        <button class="svx-burger" type="button" id="svxBurger" aria-expanded="false" aria-controls="svxNavLinks">菜单</button>
+      </nav>
+      <div class="svx-searchhint" id="svxSearchHint" role="status" aria-live="polite"></div>
+    </div>
+  </header>
+</div>
+
+<main>
+  <!-- ============ 首屏 ============ -->
+  <section class="svx-hero" id="svxHome">
+    <div class="svx-wrap svx-hero-inner">
+      <div class="svx-hero-copy">
+        <span class="svx-eyebrow">官方网站 · 原创高清内容平台</span>
+        <h1>100款不良网站进入窗口：<em>识风险、辨窗口、守边界</em></h1>
+        <p class="svx-hero-lead">安全视界是深耕网络内容安全垂直领域的视频品牌与官方内容平台。我们以原创视频、真实案例与专业解读，帮助企业、家长与创作者看清诱导性跳转的来路与套路，把每一次点击都变成可控的选择。</p>
+        <div class="svx-hero-badges">
+          <span class="svx-pill">◆ 官方发布</span>
+          <span class="svx-pill">◆ 内容生态持续运营</span>
+          <span class="svx-pill">◆ 青少年模式同步更新</span>
+        </div>
+        <div class="svx-hero-stats">
+          <div class="svx-stat"><b>1,860+</b><span>原创安全解析视频</span></div>
+          <div class="svx-stat"><b>42.6 万</b><span>长期陪伴的社区用户</span></div>
+          <div class="svx-stat"><b>6 年</b><span>内容安全领域深耕</span></div>
+        </div>
+        <div class="svx-hero-actions">
+          <a class="svx-btn svx-btn-primary" href="#svxDeep">观看深度解析</a>
+          <a class="svx-btn svx-btn-ghost" href="#svxTopics">浏览专题企划</a>
+          <button class="svx-btn svx-btn-ghost" type="button" id="svxSubmitOpenHero">我要投稿</button>
+        </div>
+      </div>
+      <div class="svx-hero-visual">
+        <div class="svx-hero-frame">
+          <img src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 480'%3E%3Cdefs%3E%3ClinearGradient id='g1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%230b1a2d'/%3E%3Cstop offset='1' stop-color='%2310395c'/%3E%3C/linearGradient%3E%3ClinearGradient id='g2' x1='0' y1='1' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%2338bdf8'/%3E%3Cstop offset='1' stop-color='%230b74d1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='480' fill='url(%23g1)'/%3E%3Cg opacity='.22' stroke='%2338bdf8' stroke-width='1'%3E%3Cpath d='M0 120h640M0 240h640M0 360h640M160 0v480M320 0v480M480 0v480'/%3E%3C/g%3E%3Crect x='96' y='96' width='300' height='210' rx='12' fill='%23ffffff' opacity='.94'/%3E%3Crect x='96' y='96' width='300' height='30' rx='12' fill='%23e2ecf7'/%3E%3Ccircle cx='114' cy='111' r='5' fill='%23f97316'/%3E%3Ccircle cx='130' cy='111' r='5' fill='%23f9c74f'/%3E%3Ccircle cx='146' cy='111' r='5' fill='%2312a37b'/%3E%3Crect x='116' y='146' width='180' height='11' rx='5' fill='%23c6d8ec'/%3E%3Crect x='116' y='168' width='250' height='11' rx='5' fill='%23dbe7f4'/%3E%3Crect x='116' y='190' width='150' height='11' rx='5' fill='%23dbe7f4'/%3E%3Crect x='116' y='224' width='112' height='34' rx='8' fill='url(%23g2)'/%3E%3Ctext x='172' y='247' font-family='sans-serif' font-size='15' fill='%23ffffff' text-anchor='middle'%3E拦截%3C/text%3E%3Cpath d='M430 130l96 58-96 58z' fill='%2338bdf8' opacity='.9'/%3E%3Ccircle cx='470' cy='322' r='56' fill='none' stroke='%23f97316' stroke-width='7' opacity='.85'/%3E%3Cpath d='M446 322l18 18 32-36' stroke='%23f97316' stroke-width='8' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3Crect x='392' y='384' width='188' height='16' rx='8' fill='%23ffffff' opacity='.26'/%3E%3Crect x='392' y='408' width='124' height='10' rx='5' fill='%23ffffff' opacity='.16'/%3E%3C/svg%3E" alt="安全视界官网首页主视觉：浏览器窗口与风险拦截提示界面示意" width="640" height="480">
+        </div>
+        <div class="svx-hero-caption">
+          <strong>本期主推 · 窗口之外 EP.04</strong>
+          <p>用 12 分钟拆解诱导跳转的四层链路，附可下载自查清单。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 焦点内容 + 视频列表 ============ -->
+  <section class="svx-section" id="svxFocus">
+    <div class="svx-wrap">
+      <div class="svx-section-head svx-reveal">
+        <div>
+          <span class="svx-eyebrow">焦点内容</span>
+          <h2>本周精选 · 100款不良网站进入窗口的风险图鉴</h2>
+          <p>以真实案例为底本，安全视界官方团队把“进入窗口”这一动作拆成可观察、可复核、可教学的视频样本，帮助用户建立第一反应。</p>
+        </div>
+        <a class="svx-btn svx-btn-ghost" style="border-color:var(--svx-line);color:var(--svx-accent)" href="#svxDeep">查看完整解析 →</a>
+      </div>
+
+      <div class="svx-index-grid" style="margin-bottom:26px">
+        <article class="svx-card svx-idx-card svx-reveal">
+          <img class="svx-thumb" src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Cdefs%3E%3ClinearGradient id='a1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23eef6ff'/%3E%3Cstop offset='1' stop-color='%23cfe4f9'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='360' fill='url(%23a1)'/%3E%3Cg fill='%23ffffff' stroke='%230b74d1' stroke-width='2'%3E%3Crect x='90' y='70' width='180' height='120' rx='9'/%3E%3Crect x='300' y='70' width='180' height='120' rx='9'/%3E%3Crect x='90' y='214' width='180' height='86' rx='9'/%3E%3Crect x='300' y='214' width='180' height='86' rx='9'/%3E%3C/g%3E%3Cg fill='%230b74d1' opacity='.85'%3E%3Crect x='108' y='96' width='98' height='9' rx='4'/%3E%3Crect x='108' y='116' width='140' height='7' rx='3' opacity='.5'/%3E%3Crect x='318' y='96' width='98' height='9' rx='4'/%3E%3Crect x='318' y='116' width='120' height='7' rx='3' opacity='.5'/%3E%3C/g%3E%3Cg fill='%23f97316'%3E%3Ccircle cx='510' cy='120' r='26' opacity='.9'/%3E%3Cpath d='M502 120l7 8 13-16' stroke='%23fff' stroke-width='4' fill='none' stroke-linecap='round'/%3E%3C/g%3E%3Ctext x='320' y='340' font-family='sans-serif' font-size='14' fill='%235c6b82' text-anchor='middle'%3E四类常见诱导窗口对照%3C/text%3E%3C/svg%3E" alt="四类常见诱导性跳转窗口的界面布局对照示意图" width="640" height="360">
+          <div class="svx-idx-text">
+            <span class="svx-tag">重点推荐</span>
+            <h3>四类“进入窗口”长什么样：弹窗、浮层、跳转页与假下载键</h3>
+            <p>逐帧对比四种典型窗口的视觉特征，教你用三秒判断是否该点。</p>
+          </div>
+        </article>
+        <article class="svx-card svx-idx-card svx-reveal">
+          <img class="svx-thumb" src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Cdefs%3E%3ClinearGradient id='a2' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%230f1a2b'/%3E%3Cstop offset='1' stop-color='%23253f5f'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='360' fill='url(%23a2)'/%3E%3Cg stroke='%2338bdf8' stroke-width='2' fill='none' opacity='.8'%3E%3Cpath d='M60 300h140l60-80h150l70-100h100'/%3E%3C/g%3E%3Cg fill='%2338bdf8'%3E%3Ccircle cx='200' cy='220' r='9'/%3E%3Ccircle cx='410' cy='120' r='9'/%3E%3Ccircle cx='580' cy='120' r='9'/%3E%3C/g%3E%3Cg fill='%23ffffff' opacity='.8'%3E%3Crect x='60' y='60' width='150' height='12' rx='6'/%3E%3Crect x='60' y='86' width='96' height='8' rx='4' opacity='.5'/%3E%3C/g%3E%3Ctext x='60' y='330' font-family='sans-serif' font-size='14' fill='%239fc3e0'%3E跳转链路拆解：从入口到落地%3C/text%3E%3C/svg%3E" alt="从点击入口到落地页的跳转链路拆解折线示意图" width="640" height="360">
+          <div class="svx-idx-text">
+            <span class="svx-tag">深度解析</span>
+            <h3>一次点击经过几层：跳转链路的时间轴复盘</h3>
+            <p>12 分钟视频，用浏览器请求日志还原一次误入窗口的完整过程。</p>
+          </div>
+        </article>
+        <article class="svx-card svx-idx-card svx-reveal">
+          <img class="svx-thumb" src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Cdefs%3E%3ClinearGradient id='a3' x1='0' y1='0' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%23fff4e8'/%3E%3Cstop offset='1' stop-color='%23fde3c6'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='360' fill='url(%23a3)'/%3E%3Cg%3E%3Crect x='80' y='84' width='140' height='190' rx='14' fill='%23ffffff' stroke='%23e0a566' stroke-width='2'/%3E%3Crect x='106' y='112' width='88' height='10' rx='5' fill='%23f4b878'/%3E%3Crect x='106' y='136' width='66' height='8' rx='4' fill='%23f6d3ad'/%3E%3Crect x='106' y='158' width='88' height='8' rx='4' fill='%23f6d3ad'/%3E%3Crect x='106' y='196' width='88' height='30' rx='7' fill='%23f97316'/%3E%3C/g%3E%3Cg%3E%3Crect x='270' y='60' width='300' height='150' rx='12' fill='%23ffffff' stroke='%23e0a566' stroke-width='2'/%3E%3Crect x='296' y='90' width='180' height='10' rx='5' fill='%23f4b878'/%3E%3Crect x='296' y='114' width='240' height='8' rx='4' fill='%23f6d3ad'/%3E%3Crect x='296' y='136' width='140' height='8' rx='4' fill='%23f6d3ad'/%3E%3C/g%3E%3Ctext x='60' y='322' font-family='sans-serif' font-size='14' fill='%23965a20'%3E家长与青少年同屏自查页面%3C/text%3E%3C/svg%3E" alt="家长与青少年共同使用设备进行页面对照自查的场景示意" width="640" height="360">
+          <div class="svx-idx-text">
+            <span class="svx-tag">家庭场景</span>
+            <h3>家庭自查 15 分钟：家长能陪孩子做的四件事</h3>
+            <p>从权限设置到窗口识别，给出一份可打印的亲子共学清单。</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="svx-vlist">
+        <article class="svx-vitem svx-reveal">
+          <div class="svx-vidx">01</div>
+          <div class="svx-vbody">
+            <h3>“100款不良网站进入窗口”是怎么被包装出来的：话术与视觉的合谋</h3>
+            <p>从标题党文案、伪关闭按钮到倒计时诱导，逐条标注常见陷阱，并给出对应的识别口诀。</p>
+            <div class="svx-meta"><span class="svx-tag">风险识别</span><span>安全视界官方</span><span>播放 28.4 万</span><span>点赞 1.9 万</span></div>
+          </div>
+          <div class="svx-vacts">
+            <button class="svx-mini" type="button" data-like="1">赞 1.9 万</button>
+            <button class="svx-mini" type="button" data-fav="1">收藏</button>
+            <button class="svx-mini" type="button" data-copy="1">复制链接</button>
+          </div>
+        </article>
+        <article class="svx-vitem svx-reveal">
+          <div class="svx-vidx">02</div>
+          <div class="svx-vbody">
+            <h3>浏览器与系统层面的双保险：把风险窗口挡在门外</h3>
+            <p>实操演示 6 项浏览器安全开关与手机端未知来源安装限制，每一步都有对应截图说明。</p>
+            <div class="svx-meta"><span class="svx-tag">实用技巧</span><span>创作者「林向晚」</span><span>播放 16.7 万</span><span>点赞 1.1 万</span></div>
+          </div>
+          <div class="svx-vacts">
+            <button class="svx-mini" type="button" data-like="1">赞 1.1 万</button>
+            <button class="svx-mini" type="button" data-fav="1">收藏</button>
+            <button class="svx-mini" type="button" data-copy="1">复制链接</button>
+          </div>
+        </article>
+        <article class="svx-vitem svx-reveal">
+          <div class="svx-vidx">03</div>
+          <div class="svx-vbody">
+            <h3>青少年模式实测：当过滤词库遇到诱导性话术变体</h3>
+            <p>用 40 组变体文案压力测试过滤机制，记录命中率与漏网情形，并给出家庭补充方案。</p>
+            <div class="svx-meta"><span class="svx-tag">深度测评</span><span>创作者「何知微」</span><span>播放 12.3 万</span><span>点赞 8,600</span></div>
+          </div>
+          <div class="svx-vacts">
+            <button class="svx-mini" type="button" data-like="1">赞 8,600</button>
+            <button class="svx-mini" type="button" data-fav="1">收藏</button>
+            <button class="svx-mini" type="button" data-copy="1">复制链接</button>
+          </div>
+        </article>
+        <article class="svx-vitem svx-reveal">
+          <div class="svx-vidx">04</div>
+          <div class="svx-vbody">
+            <h3>内容创作者如何写风险选题：不吓人、不夸大、有依据</h3>
+            <p>拆解 3 篇高完播脚本结构，讲解如何用证据链替代情绪化叙述，让科普更可信。</p>
+            <div class="svx-meta"><span class="svx-tag">创作幕后</span><span>创作者「周叙白」</span><span>播放 9.8 万</span><span>点赞 7,240</span></div>
+          </div>
+          <div class="svx-vacts">
+            <button class="svx-mini" type="button" data-like="1">赞 7,240</button>
+            <button class="svx-mini" type="button" data-fav="1">收藏</button>
+            <button class="svx-mini" type="button" data-copy="1">复制链接</button>
+          </div>
+        </article>
+        <article class="svx-vitem svx-reveal">
+          <div class="svx-vidx">05</div>
+          <div class="svx-vbody">
+            <h3>平台治理视角：不良入口的发现、取证与处置流程</h3>
+            <p>访谈内容安全从业者，完整走一遍举报—取证—处置链路，解释用户举报为何有用。</p>
+            <div class="svx-meta"><span class="svx-tag">行业观察</span><span>安全视界官方</span><span>播放 8.1 万</span><span>点赞 6,050</span></div>
+          </div>
+          <div class="svx-vacts">
+            <button class="svx-mini" type="button" data-like="1">赞 6,050</button>
+            <button class="svx-mini" type="button" data-fav="1">收藏</button>
+            <button class="svx-mini" type="button" data-copy="1">复制链接</button>
+          </div>
+        </article>
+        <article class="svx-vitem svx-reveal">
+          <div class="svx-vidx">06</div>
+          <div class="svx-vbody">
+            <h3>误入之后怎么办：黄金 10 分钟的处置顺序</h3>
+            <p>停、断、查、改、报五步法，附一张可保存到手机相册的处置卡片。</p>
+            <div class="svx-meta"><span class="svx-tag">情感故事</span><span>创作者「苏木禾」</span><span>播放 21.5 万</span><span>点赞 1.6 万</span></div>
+          </div>
+          <div class="svx-vacts">
+            <button class="svx-mini" type="button" data-like="1">赞 1.6 万</button>
+            <button class="svx-mini" type="button" data-fav="1">收藏</button>
+            <button class="svx-mini" type="button" data-copy="1">复制链接</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 深度解析（关键词长文） ============ -->
+  <section class="svx-section" id="svxDeep" style="padding-top:0">
+    <div class="svx-wrap">
+      <div class="svx-deep svx-reveal">
+        <span class="svx-eyebrow">关键词解析</span>
+        <h2>“100款不良网站进入窗口”背后，到底在发生什么</h2>
+        <p class="svx-deep-lead">这个词组之所以反复出现在搜索框里，往往不是因为人们真的想找那“100款”名单，而是因为很多人已经遇见过一个莫名其妙的窗口，想搞清楚它从哪来、要干什么、自己有没有被卷进去。安全视界官方网站把这件常被含糊处理的事，拆成可以观察、可以复现、可以教给家人的具体知识。</p>
+
+        <h3>一、为什么“窗口”这个词被反复提起</h3>
+        <p>在移动互联网早期，“窗口”是弹窗广告的通用叫法；到了今天，它更像一个笼统的容器，装着至少四种不同的东西：系统通知栏推送、浏览器内浮层、跳转后的落地页、以及伪装成下载按钮的诱导控件。用户很难在零点几秒内区分它们，于是把所有不合预期的进入都叫作“不良网站进入窗口”。安全视界在近三年的用户调研中发现，超过七成的相关求助，描述的其实是同一个动作序列：在某个内容页面停留、手指滑动、页面突然跳转、返回键失灵、然后出现一个要求授权的弹窗。</p>
+        <p>这就是为什么用“100款”去列举并不解决问题。数量是发散的，形态却是收敛的。真正值得记住的是那套收敛的结构：一个看似合理的入口、一段被压缩的判断时间、一个不容拒绝的动作请求。我们的官方内容团队把这个结构叫作“三段式诱导”，并以此为骨架制作了整套视频解析，帮助用户在看到第一帧时就提高警惕，而不是等到输入密码那一步才后悔。</p>
+
+        <h3>二、窗口的四种常见形态与识别要点</h3>
+        <p>第一种是“伪关闭按钮”。浮层右上角的叉号往往比正常尺寸小一号，位置略微偏移，点击后不是关闭而是跳转。识别要点是观察按钮是否有按压反馈，以及关闭后页面地址是否变化。第二种是“倒计时诱导”，用五秒倒计时制造紧迫感，让人来不及思考就按下确认。第三种是“假下载键”，页面主体布满大小不一的下载按钮，真正的关闭入口被挤到角落。第四种是“授权连环”，先索取通知权限，再索取存储权限，最后要求开启无障碍服务，每一步都无害，合起来却足以改变设备行为。</p>
+        <p>我们的视频内容对这四种形态都做了逐帧拆解，并给出对应口诀：看反馈、慢三秒、找真键、拒连授。这些口诀不是万能的，但它们把决策从“感觉”挪到了“步骤”上，对大多数普通用户已经足够。企业内部培训使用时，我们还会补充一条：任何要求你关闭安全软件的提示，都应该被当作风险信号，而不是待办事项。</p>
+
+        <h3>三、企业与家庭两个场景的实操差异</h3>
+        <p>企业场景的关键词是“可控”。安全视界为企业客户设计的内容安全课程，强调统一出口、统一策略、统一日志：浏览器安全策略下发、未知来源安装禁用、DNS 过滤规则、员工举报通道，四件事做完，绝大多数诱导性窗口根本到不了员工眼前。我们也在视频里演示了如何用一次网络请求日志的复核，判断某次误入是否导致了凭据外泄，这比笼统地说“注意安全”有效得多。</p>
+        <p>家庭场景的关键词是“陪伴”。孩子遇到的窗口，往往不是最恶劣的，却是最难解释的。我们的创作者苏木禾做过一期很受欢迎的节目，她没有渲染恐惧，而是和孩子一起把误入的页面逐条读出来，问三个问题：它想让你做什么？它希望你多快做决定？如果慢下来，你还想按吗？这套方法被很多家长称为“最不吓人的一次教育”。安全视界把这类真实、温暖的内容视为品牌的一部分，因为真正持久的用户信任，来自可复述的经验，而不是一次性的警告。</p>
+
+        <h3>四、内容平台在这件事上的责任与边界</h3>
+        <p>作为持续运营的视频内容平台，安全视界对自身的要求是明确的：不提供任何可被滥用的具体入口清单，不展示可疑站点的完整地址，不做带诱导性的标题，不把风险描述成猎奇故事。我们做的是把风险讲清楚，而不是把风险讲热闹。这也是我们在内容生态里坚持原创与正版的原因——只有来源清晰、可追溯、可复核的内容，才配得上“专业”两个字。我们的审核流程要求每一期涉及具体案例的视频，都必须经过事实核查与脱敏处理，宁可少讲一个细节，也不让内容本身成为新的风险源。</p>
+        <p>与此同时，平台也在用产品化的方式降低门槛：青少年模式过滤词库每两周更新一次，目前已覆盖超过两万七千条诱导性话术变体；举报入口放在每一期视频的固定位置，用户一次点击即可提交截图；企业版后台提供可导出的培训完成度报表。这些并不炫目，但它们是“值得信赖”这四个字的具体重量。</p>
+
+        <h3>五、把判断力交给用户，而不是交给恐吓</h3>
+        <p>我们始终认为，安全内容的终点不是让人害怕，而是让人有底气。底气来自你知道窗口长什么样、来自你知道按错了之后怎么办、来自你知道有一个地方可以把疑问提出来并得到回应。安全视界的社区里有很多这样的回应：有人分享自己误入后按五步法处理的全过程，有人补充了一条我们没讲到的变体，有人只是说“看完安心了”。这些内容构成了品牌真正的护城河，也解释了为什么一个做安全解析的垂直内容平台，能够持续运营六年而不被流量逻辑带偏。</p>
+        <p>所以当我们讨论“100款不良网站进入窗口”时，真正要回答的问题是：面对未知的窗口，你是否有稳定的判断流程？你的家人是否有？你所在的组织是否有？如果答案还不够确定，那这组内容就仍然值得被看完，被转述，被用在某个具体的深夜里。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 专题企划 ============ -->
+  <section class="svx-section" id="svxTopics" style="padding-top:0">
+    <div class="svx-wrap">
+      <div class="svx-section-head svx-reveal">
+        <div>
+          <span class="svx-eyebrow">专题企划</span>
+          <h2>三个长期专题，构成安全视界的内容生态骨架</h2>
+          <p>每个专题都由官方编辑与社区创作者共同维护，持续更新，条目可追溯。</p>
+        </div>
+      </div>
+      <div class="svx-index-grid">
+        <article class="svx-card svx-idx-card svx-reveal">
+          <img class="svx-thumb" src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Cdefs%3E%3ClinearGradient id='b1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%230d2b45'/%3E%3Cstop offset='1' stop-color='%23134e73'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='360' fill='url(%23b1)'/%3E%3Cg stroke='%2338bdf8' stroke-width='3' fill='none'%3E%3Crect x='110' y='90' width='420' height='180' rx='14'/%3E%3Cpath d='M180 200h80l40-60 50 100 40-70h70'/%3E%3C/g%3E%3Ccircle cx='470' cy='146' r='34' fill='none' stroke='%23f97316' stroke-width='5'/%3E%3Cpath d='M470 128v22l16 10' stroke='%23f97316' stroke-width='5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E" alt="专题「窗口之外」的时间轴与数据曲线视觉图" width="640" height="360">
+          <div class="svx-idx-text">
+            <span class="svx-tag">更新中 · 已更 24 期</span>
+            <h3>专题：窗口之外</h3>
+            <p>从一次误入出发，讲清楚跳转、授权与后果的完整链路，附全部案例索引。</p>
+            <ul style="font-size:13.2px;color:#4a5f79;padding-left:18px;margin-top:10px">
+              <li>EP.04 四类窗口的逐帧识别</li>
+              <li>EP.03 授权连环的边界在哪</li>
+              <li>EP.02 误入之后的黄金十分钟</li>
+            </ul>
+          </div>
+        </article>
+        <article class="svx-card svx-idx-card svx-reveal">
+          <img class="svx-thumb" src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Cdefs%3E%3ClinearGradient id='b2' x1='0' y1='1' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%23f0fbf5'/%3E%3Cstop offset='1' stop-color='%23cdeedd'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='360' fill='url(%23b2)'/%3E%3Cg fill='%2312a37b'%3E%3Ccircle cx='150' cy='120' r='34' opacity='.85'/%3E%3Ccircle cx='250' cy='170' r='22' opacity='.65'/%3E%3Ccircle cx='340' cy='110' r='44' opacity='.45'/%3E%3Ccircle cx='440' cy='190' r='28' opacity='.7'/%3E%3Ccircle cx='520' cy='130' r='18' opacity='.55'/%3E%3C/g%3E%3Cg stroke='%2312a37b' stroke-width='3' fill='none' opacity='.6'%3E%3Cpath d='M150 230h120l60-40h180'/%3E%3C/g%3E%3Ctext x='60' y='320' font-family='sans-serif' font-size='14' fill='%230f6b52'%3E家庭共学：陪伴式安全教育%3C/text%3E%3C/svg%3E" alt="家庭共学专题中人物圆形头像连接与陪伴路径示意图" width="640" height="360">
+          <div class="svx-idx-text">
+            <span class="svx-tag">更新中 · 已更 17 期</span>
+            <h3>专题：陪孩子上一次安全课</h3>
+            <p>不吓人的家庭安全教育方案，每期配一份可打印亲子清单。</p>
+            <ul style="font-size:13.2px;color:#4a5f79;padding-left:18px;margin-top:10px">
+              <li>第 17 期 三个提问法</li>
+              <li>第 16 期 设备权限怎么讲</li>
+              <li>第 15 期 第一次独立上网</li>
+            </ul>
+          </div>
+        </article>
+        <article class="svx-card svx-idx-card svx-reveal">
+          <img class="svx-thumb" src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Cdefs%3E%3ClinearGradient id='b3' x1='0' y1='0' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%23fff7ed'/%3E%3Cstop offset='1' stop-color='%23ffe4c7'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='360' fill='url(%23b3)'/%3E%3Cg fill='%23ffffff' stroke='%23f97316' stroke-width='2.5'%3E%3Crect x='90' y='90' width='180' height='80' rx='10'/%3E%3Crect x='310' y='90' width='180' height='80' rx='10'/%3E%3Crect x='90' y='200' width='180' height='80' rx='10'/%3E%3Crect x='310' y='200' width='180' height='80' rx='10'/%3E%3C/g%3E%3Cg fill='%23f97316' opacity='.65'%3E%3Crect x='112' y='114' width='90' height='10' rx='5'/%3E%3Crect x='332' y='114' width='120' height='10' rx='5'/%3E%3Crect x='112' y='224' width='110' height='10' rx='5'/%3E%3Crect x='332' y='224' width='80' height='10' rx='5'/%3E%3C/g%3E%3Ctext x='60' y='326' font-family='sans-serif' font-size='14' fill='%23965a20'%3E企业培训模块化课程目录%3C/text%3E%3C/svg%3E" alt="企业内容安全培训模块化课程目录卡片布局示意图" width="640" height="360">
+          <div class="svx-idx-text">
+            <span class="svx-tag">更新中 · 已更 31 期</span>
+            <h3>专题：企业内容安全课</h3>
+            <p>面向内部培训的模块化课程，每期交付一段视频与一份检查表。</p>
+            <ul style="font-size:13.2px;color:#4a5f79;padding-left:18px;margin-top:10px">
+              <li>M07 出口策略下发实操</li>
+              <li>M06 员工举报通道设计</li>
+              <li>M05 一次日志复核全流程</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 创作者矩阵 ============ -->
+  <section class="svx-section" id="svxAuthors" style="padding-top:0">
+    <div class="svx-wrap">
+      <div class="svx-section-head svx-reveal">
+        <div>
+          <span class="svx-eyebrow">创作者矩阵</span>
+          <h2>五位长期创作者，撑起安全视界的专业口碑</h2>
+          <p>他们既有行业从业者，也有家长与独立影像作者，风格各异，但都坚持真实与可复核。</p>
+        </div>
+      </div>
+      <div class="svx-author-grid">
+        <article class="svx-card svx-author svx-reveal">
+          <div class="svx-avatar" style="background:linear-gradient(135deg,#0b74d1,#38bdf8)" aria-hidden="true">林</div>
+          <div>
+            <div class="svx-author-name">林向晚 <span class="svx-tag">官方认证</span></div>
+            <div class="svx-author-field">浏览器安全 · 实操技巧</div>
+            <p>前网络安全工程师，擅于把复杂策略拆成可照做的六步清单。她的视频节奏克制、几乎不配背景音乐，却常年占据收藏榜前列。她说自己最想做的不是吓人，而是让人少按一次错误的确认。</p>
+            <div class="svx-author-nums"><span>作品 <b>214</b></span><span>粉丝 <b>12.8 万</b></span><span>更新 <b>每周三</b></span></div>
+          </div>
+        </article>
+        <article class="svx-card svx-author svx-reveal">
+          <div class="svx-avatar" style="background:linear-gradient(135deg,#12a37b,#5ed6b0)" aria-hidden="true">何</div>
+          <div>
+            <div class="svx-author-name">何知微 <span class="svx-tag">深度测评</span></div>
+            <div class="svx-author-field">青少年模式 · 内容过滤</div>
+            <p>教育学背景，做过三年中学心理老师。她习惯用测试代替断言，一期视频背后往往是几十组文案实验和一张密密麻麻的记录表。她的评论区里，家长们的提问总能得到耐心回复。</p>
+            <div class="svx-author-nums"><span>作品 <b>138</b></span><span>粉丝 <b>9.6 万</b></span><span>更新 <b>每周五</b></span></div>
+          </div>
+        </article>
+        <article class="svx-card svx-author svx-reveal">
+          <div class="svx-avatar" style="background:linear-gradient(135deg,#f97316,#f9b26a)" aria-hidden="true">周</div>
+          <div>
+            <div class="svx-author-name">周叙白 <span class="svx-tag">创作幕后</span></div>
+            <div class="svx-author-field">脚本结构 · 科普表达</div>
+            <p>独立影像作者，做过六年纪录片剪辑。他把风险科普当成叙事工程来做，强调证据链、节奏与留白。他的脚本课在社区里被反复转述，最常被引用的一句是“先让人看懂，再让人记住”。</p>
+            <div class="svx-author-nums"><span>作品 <b>96</b></span><span>粉丝 <b>7.4 万</b></span><span>更新 <b>每两周</b></span></div>
+          </div>
+        </article>
+        <article class="svx-card svx-author svx-reveal">
+          <div class="svx-avatar" style="background:linear-gradient(135deg,#7c5cff,#b6a4ff)" aria-hidden="true">苏</div>
+          <div>
+            <div class="svx-author-name">苏木禾 <span class="svx-tag">家庭场景</span></div>
+            <div class="svx-author-field">亲子共学 · 情感故事</div>
+            <p>两个孩子的母亲，也是社区里最受欢迎的讲述者。她擅长把一次误入写成一段真实的家庭对话，不评判、不说教。很多用户留言说，是她的视频让家里第一次坐下来认真聊了上网这件事。</p>
+            <div class="svx-author-nums"><span>作品 <b>172</b></span><span>粉丝 <b>15.2 万</b></span><span>更新 <b>每周日</b></span></div>
+          </div>
+        </article>
+        <article class="svx-card svx-author svx-reveal">
+          <div class="svx-avatar" style="background:linear-gradient(135deg,#0f1a2b,#3c5a7d)" aria-hidden="true">陈</div>
+          <div>
+            <div class="svx-author-name">陈砚舟 <span class="svx-tag">行业观察</span></div>
+            <div class="svx-author-field">平台治理 · 合规视角</div>
+            <p>内容安全行业十年从业者，做过审核、举报与合规三块业务。他的访谈视频信息密度高，习惯在片尾附上参考清单。他相信治理的进步来自流程的透明，而不是口号的响亮。</p>
+            <div class="svx-author-nums"><span>作品 <b>84</b></span><span>粉丝 <b>6.1 万</b></span><span>更新 <b>每月</b></span></div>
+          </div>
+        </article>
+        <article class="svx-card svx-author svx-reveal" style="background:linear-gradient(150deg,#f7fbff,#e8f2fc);align-content:center">
+          <div class="svx-avatar" style="background:linear-gradient(135deg,#38bdf8,#0b74d1)" aria-hidden="true">+</div>
+          <div>
+            <div class="svx-author-name">成为下一位创作者</div>
+            <div class="svx-author-field">持续开放招募 · 官方扶持</div>
+            <p>如果你在内容安全、网络素养或家庭沟通上有可以复述的真实经验，欢迎把脚本与素材提交给官方编辑。我们提供选题辅导、版权协助与流量扶持，也保留对内容真实性的严格审核。</p>
+            <div class="svx-author-nums"><span>在审 <b>18 份</b></span><span>本月入选 <b>4 位</b></span></div>
+            <button class="svx-mini" type="button" id="svxSubmitOpenAuthor" style="margin-top:10px">提交投稿意向</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 数据榜单 ============ -->
+  <section class="svx-section" id="svxRank" style="padding-top:0">
+    <div class="svx-wrap">
+      <div class="svx-section-head svx-reveal">
+        <div>
+          <span class="svx-eyebrow">数据榜单</span>
+          <h2>口碑与热度，由社区的真实观看行为决定</h2>
+          <p>榜单每周一更新，统计口径公开，拒绝任何形式的人工置顶与刷量干预。</p>
+        </div>
+      </div>
+      <div class="svx-rank-shell">
+        <div class="svx-rank-col svx-reveal">
+          <h3>热度榜 <span>本周观看</span></h3>
+          <ol class="svx-rank-list">
+            <li><span class="rk rk-top1">01</span><span>“100款不良网站进入窗口”话术解剖</span><em>28.4 万</em></li>
+            <li><span class="rk rk-top2">02</span><span>误入之后的黄金十分钟</span><em>21.5 万</em></li>
+            <li><span class="rk rk-top3">03</span><span>浏览器与系统双保险实操</span><em>16.7 万</em></li>
+            <li><span class="rk">04</span><span>青少年模式 40 组变体实测</span><em>12.3 万</em></li>
+            <li><span class="rk">05</span><span>创作者如何写风险选题</span><em>9.8 万</em></li>
+          </ol>
+        </div>
+        <div class="svx-rank-col svx-reveal">
+          <h3>新人榜 <span>近 30 天</span></h3>
+          <ol class="svx-rank-list">
+            <li><span class="rk rk-top1">01</span><span>@慢半拍的安全课</span><em>首作 4.2 万</em></li>
+            <li><span class="rk rk-top2">02</span><span>@小城家长笔记</span><em>首作 3.6 万</em></li>
+            <li><span class="rk rk-top3">03</span><span>@窗口观察室</span><em>首作 2.9 万</em></li>
+            <li><span class="rk">04</span><span>@七点半关电脑</span><em>首作 2.1 万</em></li>
+            <li><span class="rk">05</span><span>@屏幕边的对话</span><em>首作 1.8 万</em></li>
+          </ol>
+        </div>
+        <div class="svx-rank-col svx-reveal">
+          <h3>口碑榜 <span>完播与收藏</span></h3>
+          <ol class="svx-rank-list">
+            <li><span class="rk rk-top1">01</span><span>三个提问法的家庭实践</span><em>9.6 分</em></li>
+            <li><span class="rk rk-top2">02</span><span>企业举报通道怎么设计</span><em>9.5 分</em></li>
+            <li><span class="rk rk-top3">03</span><span>一次请求日志的复核全程</span><em>9.4 分</em></li>
+            <li><span class="rk">04</span><span>四类窗口的逐帧识别</span><em>9.3 分</em></li>
+            <li><span class="rk">05</span><span>不吓人的安全课怎么写</span><em>9.2 分</em></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 用户口碑 ============ -->
+  <section class="svx-section" id="svxComments" style="padding-top:0">
+    <div class="svx-wrap">
+      <div class="svx-section-head svx-reveal">
+        <div>
+          <span class="svx-eyebrow">用户口碑</span>
+          <h2>他们留下的评论，比任何宣传都更接近真相</h2>
+          <p>以下内容摘自社区公开评论，已脱敏，未做改写。</p>
+        </div>
+      </div>
+      <div class="svx-comment-grid">
+        <div class="svx-comment svx-reveal">
+          <div class="svx-comment-top"><div class="svx-cavatar" style="background:#0b74d1">吴</div><b>吴女士</b><span>家长 · 11月19日</span></div>
+          <p>孩子上初中，之前真的被那种浮层吓到过。看完苏木禾那期，我第一次没有吼他，而是一起把页面读了一遍。效果比说一百遍“别乱点”好太多。</p>
+          <div class="svx-stars">★★★★★</div>
+        </div>
+        <div class="svx-comment svx-reveal">
+          <div class="svx-comment-top"><div class="svx-cavatar" style="background:#12a37b">赵</div><b>赵工</b><span>企业 IT · 11月18日</span></div>
+          <p>把 M07 那期直接放进了季度培训，省了我做 PPT 的两天。检查表很细，尤其是出口策略那部分，落地没有任何歧义。</p>
+          <div class="svx-stars">★★★★★</div>
+        </div>
+        <div class="svx-comment svx-reveal">
+          <div class="svx-comment-top"><div class="svx-cavatar" style="background:#f97316">林</div><b>林同学</b><span>大学生 · 11月17日</span></div>
+          <p>说真的，第一次看这种内容没被吓到。节奏很稳，讲清楚了为什么有些按钮不能点，而不是只说不能点。</p>
+          <div class="svx-stars">★★★★☆</div>
+        </div>
+        <div class="svx-comment svx-reveal">
+          <div class="svx-comment-top"><div class="svx-cavatar" style="background:#7c5cff">沈</div><b>沈老师</b><span>中学教师 · 11月16日</span></div>
+          <p>班会课用了“三个提问法”，学生反应比预期好。建议官方再出一版适合投影的横屏图文，方便教室使用。</p>
+          <div class="svx-stars">★★★★★</div>
+        </div>
+        <div class="svx-comment svx-reveal">
+          <div class="svx-comment-top"><div class="svx-cavatar" style="background:#0f1a2b">郭</div><b>郭先生</b><span>自由职业 · 11月15日</span></div>
+          <p>五步法那张卡片我存手机里了，上周真用上了一次。停、断、查、改、报，按顺序做完心里就踏实了。</p>
+          <div class="svx-stars">★★★★★</div>
+        </div>
+        <div class="svx-comment svx-reveal">
+          <div class="svx-comment-top"><div class="svx-cavatar" style="background:#38bdf8">何</div><b>何小满</b><span>设计从业 · 11月14日</span></div>
+          <p>从视觉角度讲，这家的排版真的很克制，没有那种夸张的红色警告。作为内容平台，这份分寸感挺难得的。</p>
+          <div class="svx-stars">★★★★☆</div>
+        </div>
+        <div class="svx-comment svx-reveal">
+          <div class="svx-comment-top"><div class="svx-cavatar" style="background:#12a37b">郑</div><b>郑女士</b><span>社区志愿者 · 11月13日</span></div>
+          <p>我们在社区做老年人手机课时，直接用了何知微的实测那期。老人家听懂了，还主动问怎么开青少年模式给孙辈用。</p>
+          <div class="svx-stars">★★★★★</div>
+        </div>
+        <div class="svx-comment svx-reveal">
+          <div class="svx-comment-top"><div class="svx-cavatar" style="background:#0b74d1">陆</div><b>陆一鸣</b><span>内容审核员 · 11月12日</span></div>
+          <p>行业里愿意把处置流程讲这么透明的平台不多。看完陈砚舟那期，我把举报入口的位置都记住了，确实在固定位置。</p>
+          <div class="svx-stars">★★★★★</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 企业动态 + 合作 ============ -->
+  <section class="svx-section" id="svxNews" style="padding-top:0">
+    <div class="svx-wrap" style="display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:34px" id="svxNewsGrid">
+      <div class="svx-reveal">
+        <span class="svx-eyebrow">企业动态</span>
+        <h2 style="margin-bottom:16px">官方发布与内容更新日志</h2>
+        <div class="svx-timeline">
+          <div class="svx-news">
+            <time>2026.11.22</time>
+            <div>
+              <h3>《窗口之外》EP.04 正式上线</h3>
+              <p>本期首次公开四类诱导窗口的逐帧对照素材，并同步发布可下载自查清单，供家庭与企业培训免费使用。</p>
+            </div>
+          </div>
+          <div class="svx-news">
+            <time>2026.11.20</time>
+            <div>
+              <h3>专题「窗口之外」开放社区投稿</h3>
+              <p>面向创作者征集原创解析脚本，入选作品将获得官方编辑辅导与首页推荐位，投稿通道已开放。</p>
+            </div>
+          </div>
+          <div class="svx-news">
+            <time>2026.11.18</time>
+            <div>
+              <h3>青少年模式过滤词库更新至 2.7 万条</h3>
+              <p>本次更新重点覆盖诱导性跳转话术的变体表达，并新增对短视频口播文案的识别支持。</p>
+            </div>
+          </div>
+          <div class="svx-news">
+            <time>2026.11.12</time>
+            <div>
+              <h3>企业内容安全课 M07 模块发布</h3>
+              <p>新增出口策略下发实操演示，配套检查表支持导出为可编辑文档，已面向企业客户开放。</p>
+            </div>
+          </div>
+          <div class="svx-news">
+            <time>2026.11.05</time>
+            <div>
+              <h3>安全视界获评年度内容生态共建单位</h3>
+              <p>在行业年度评选中，平台因持续输出可复核的安全解析内容与透明的治理流程获得认可。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="svx-reveal">
+        <span class="svx-eyebrow">合作与共建</span>
+        <h2 style="margin-bottom:16px">与我们共同维护内容生态</h2>
+        <div class="svx-partners">
+          <div class="svx-partner">明理学堂<span>教育共建</span></div>
+          <div class="svx-partner">青禾社区<span>家庭课堂</span></div>
+          <div class="svx-partner">知远研究院<span>课题合作</span></div>
+          <div class="svx-partner">灯塔书店<span>线下共读</span></div>
+        </div>
+        <div class="svx-card" style="padding:20px;margin-top:20px">
+          <h3 style="font-size:15.5px;margin-bottom:8px">社会责任方向</h3>
+          <p style="font-size:13.6px;color:var(--svx-muted);margin:0">我们每年将不少于 15% 的内容产能投入公益科普，包括面向乡村学校的设备使用课、面向社区老年群体的手机安全课，以及面向家长群体的亲子共学手册。相关素材全部免费开放下载。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 投稿横幅 ============ -->
+  <section class="svx-section" style="padding-top:0">
+    <div class="svx-wrap">
+      <div class="svx-submit svx-reveal">
+        <div>
+          <h2>把你的经验，变成别人夜里的一盏灯</h2>
+          <p>安全视界持续开放投稿与创意征集。无论是一段真实经历、一份自查清单，还是一次失败的尝试，都可能成为下一期精品内容的起点。官方编辑会提供脚本辅导，版权归创作者所有。</p>
+        </div>
+        <div style="display:flex;gap:12px;flex-wrap:wrap">
+          <button class="svx-btn svx-btn-primary" type="button" id="svxSubmitOpenBanner">立即投稿</button>
+          <button class="svx-btn svx-btn-ghost" type="button" id="svxShareBtn">分享本页</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="svx-section" id="svxFaq" style="padding-top:0">
+    <div class="svx-wrap" style="max-width:900px">
+      <div class="svx-section-head svx-reveal">
+        <div>
+          <span class="svx-eyebrow">常见问题</span>
+          <h2>关于安全视界官方网站的常见提问</h2>
+          <p>点击问题展开答案；若仍有疑问，可在页面底部查看联系与反馈方式。</p>
+        </div>
+      </div>
+      <div class="svx-faq svx-reveal">
+        <details open>
+          <summary>安全视界会提供“100款不良网站进入窗口”的具体名单吗？</summary>
+          <p>不会。作为官方内容平台，我们明确不提供、不展示任何可被滥用的具体入口清单或完整地址。我们提供的是识别方法、处置流程与可复核的案例解析，这样更安全，也更有长期价值。</p>
+        </details>
+        <details>
+          <summary>没有技术背景，能看懂你们的内容吗？</summary>
+          <p>可以。我们的视频默认面向普通用户，专业术语会配生活化类比，并在片尾给出可保存的清单。林向晚与苏木禾的系列尤其适合零基础观众。</p>
+        </details>
+        <details>
+          <summary>视频是否可以用于企业内部培训？</summary>
+          <p>可以。企业专题「企业内容安全课」的全部模块均提供授权使用的培训版本，配套检查表支持导出编辑。具体授权范围请在投稿弹窗中留言说明使用场景，我们会提供对应说明。</p>
+        </details>
+        <details>
+          <summary>青少年模式的内容过滤是怎么更新的？</summary>
+          <p>过滤词库约每两周更新一次，目前覆盖超过 2.7 万条诱导性话术变体。更新日志会在企业动态中公布，同时说明本次新增的识别方向。</p>
+        </details>
+        <details>
+          <summary>我想成为签约创作者，需要什么条件？</summary>
+          <p>我们更看重真实经验与表达能力，而不是粉丝量。你可以提交一份选题说明与样片链接，官方编辑会在十个工作日内反馈。入选后我们会提供选题辅导、版权协助与流量扶持。</p>
+        </details>
+        <details>
+          <summary>发现可疑内容入口，应该怎么反馈？</summary>
+          <p>请在任意一期视频下方的固定举报位置提交截图与页面信息。我们会按取证—复核—处置的流程处理，并在适当范围内向提交者反馈结果。请勿在公开评论区张贴可疑页面的完整地址。</p>
+        </details>
+        <details>
+          <summary>平台的内容更新频率是怎样的？</summary>
+          <p>《窗口之外》每周更新，《陪孩子上一次安全课》每周更新，企业内容安全课每月更新。专题词库与检查表随视频同步上线，更新日志集中公布在企业动态板块。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="svx-footer">
+  <div class="svx-wrap">
+    <div class="svx-footer-grid">
+      <div>
+        <div class="svx-brand" style="margin-bottom:12px">
+          <div class="svx-brand-mark" aria-hidden="true">安视</div>
+          <div>
+            <div class="svx-brand-name" style="color:#e3eefa">安全视界</div>
+            <div class="svx-brand-sub">SAFE VIEW · 官方网站</div>
+          </div>
+        </div>
+        <p style="margin:0 0 10px">以原创视频与真实案例，持续输出可复核的内容安全知识。安全视界致力于构建值得信赖的高品质内容生态，让每一次点击都更从容。</p>
+        <p style="margin:0;font-size:12.5px;color:#6f8aa6">持续运营 · 用户至上 · 匠心与创新</p>
+      </div>
+      <div>
+        <h4>内容板块</h4>
+        <ul>
+          <li><a href="#svxFocus">焦点内容</a></li>
+          <li><a href="#svxDeep">关键词解析</a></li>
+          <li><a href="#svxTopics">专题企划</a></li>
+          <li><a href="#svxRank">数据榜单</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>社区与参与</h4>
+        <ul>
+          <li><a href="#svxAuthors">创作者矩阵</a></li>
+          <li><a href="#svxComments">用户口碑</a></li>
+          <li><a href="#svxFaq">常见问题</a></li>
+          <li><a href="#svxHome">回到首页</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>品牌与联系</h4>
+        <ul>
+          <li><a href="#svxNews">企业动态</a></li>
+          <li><a href="#svxNews">合作与共建</a></li>
+          <li>投稿邮箱：editor@safevue.example</li>
+          <li>商务合作：partner@safevue.example</li>
+        </ul>
+      </div>
+    </div>
+    <div class="svx-footer-bottom">
+      <span>安全视界官方网站 | 版权所有 © 2020–2026 安全视界内容科技 | 持续运营中</span>
+      <span>内容合规备案号：安视备 2026-0417 号 · 举报反馈请通过页面投稿入口提交</span>
+    </div>
+  </div>
+</footer>
+
+<button class="svx-top" id="svxTopBtn" type="button" aria-label="回到顶部">↑</button>
+<div class="svx-toast" id="svxToast" role="status" aria-live="polite"></div>
+
+<div class="svx-modal" id="svxModal" role="dialog" aria-modal="true" aria-labelledby="svxModalTitle">
+  <div class="svx-modal-box">
+    <button class="svx-modal-close" type="button" id="svxModalClose" aria-label="关闭">×</button>
+    <h3 id="svxModalTitle">投稿与反馈</h3>
+    <p id="svxModalDesc">请填写基本信息，官方编辑会在十个工作日内回复。</p>
+    <form id="svxSubmitForm">
+      <div class="svx-field">
+        <label for="svxAuthorName">称呼</label>
+        <input id="svxAuthorName" name="name" type="text" placeholder="怎么称呼你" required>
+      </div>
+      <div class="svx-field">
+        <label for="svxAuthorType">投稿类型</label>
+        <select id="svxAuthorType" name="type">
+          <option>视频脚本 / 样片</option>
+          <option>自查清单 / 图文</option>
+          <option>企业培训授权咨询</option>
+          <option>内容纠错与反馈</option>
+        </select>
+      </div>
+      <div class="svx-field">
+        <label for="svxAuthorMsg">内容说明</label>
+        <textarea id="svxAuthorMsg" name="msg" placeholder="简单描述选题方向或反馈内容，请勿填写任何可疑页面的完整地址"></textarea>
+      </div>
+      <button class="svx-btn svx-btn-primary" type="submit" style="width:100%">提交</button>
+    </form>
+  </div>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  /* 移动端导航折叠 */
+  var burger = document.getElementById("svxBurger");
+  var navLinks = document.getElementById("svxNavLinks");
+  if (burger && navLinks) {
+    burger.addEventListener("click", function () {
+      var open = navLinks.classList.toggle("is-open");
+      burger.setAttribute("aria-expanded", open ? "true" : "false");
+      burger.textContent = open ? "收起" : "菜单";
+    });
+    navLinks.addEventListener("click", function (e) {
+      if (e.target.tagName === "A" && window.innerWidth <= 760) {
+        navLinks.classList.remove("is-open");
+        burger.setAttribute("aria-expanded", "false");
+        burger.textContent = "菜单";
+      }
+    });
+  }
+
+  /* Toast */
+  var toast = document.getElementById("svxToast");
+  var toastTimer = null;
+  function showToast(msg) {
+    if (!toast) return;
+    toast.textContent = msg;
+    toast.classList.add("is-show");
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () {
+      toast.classList.remove("is-show");
+    }, 2200);
+  }
+
+  /* 搜索反馈 */
+  var searchForm = document.getElementById("svxSearchForm");
+  var searchInput = document.getElementById("svxSearchInput");
+  var searchHint = document.getElementById("svxSearchHint");
+  var searchIndex = [
+    "四类窗口识别 · 焦点内容",
+    "跳转链路复盘 · 深度解析",
+    "家庭自查 15 分钟 · 亲子清单",
+    "浏览器与系统双保险 · 实操",
+    "青少年模式实测 · 深度测评",
+    "创作者脚本结构 · 创作幕后",
+    "平台治理流程 · 行业观察",
+    "误入之后黄金十分钟 · 处置五步法"
+  ];
+  if (searchForm && searchInput && searchHint) {
+    searchForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var kw = (searchInput.value || "").trim();
+      if (!kw) {
+        searchHint.classList.add("is-on");
+        searchHint.innerHTML = "请输入关键词，例如「窗口」「自查」「青少年模式」。";
+        return;
+      }
+      var hits = searchIndex.filter(function (item) {
+        return item.indexOf(kw) > -1 || kw.length >= 2;
+      });
+      searchHint.classList.add("is-on");
+      if (hits.length === 0) {
+        searchHint.innerHTML = "未找到与 <b>" + escapeHtml(kw) + "</b> 完全匹配的内容，试试「识别」「处置」「培训」。";
+      } else {
+        searchHint.innerHTML = "为 <b>" + escapeHtml(kw) + "</b> 找到 " + Math.min(hits.length, 4) + " 条相关入口：" + hits.slice(0, 4).join(" · ");
+      }
+    });
+    searchInput.addEventListener("input", function () {
+      var kw = (searchInput.value || "").trim();
+      if (!kw) {
+        searchHint.classList.remove("is-on");
+        searchHint.innerHTML = "";
+      }
+    });
+  }
+  function escapeHtml(str) {
+    return String(str).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+
+  /* 点赞 / 收藏 */
+  document.querySelectorAll("[data-like]").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var liked = btn.classList.toggle("is-like");
+      var label = btn.textContent.replace(/^已?赞\s*/, "");
+      btn.textContent = (liked ? "已赞 " : "赞 ") + label;
+      showToast(liked ? "已点赞，感谢你的支持" : "已取消点赞");
+    });
+  });
+  document.querySelectorAll("[data-fav]").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var fav = btn.classList.toggle("is-fav");
+      btn.textContent = fav ? "已收藏" : "收藏";
+      showToast(fav ? "已收藏到你的清单" : "已取消收藏");
+    });
+  });
+
+  /* 复制链接 */
+  document.querySelectorAll("[data-copy]").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var text = "安全视界 · 原创内容安全解析";
+      var done = function () { showToast("内容标识已复制，可直接分享"); };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(done, function () { showToast("复制失败，请手动选择文本"); });
+      } else {
+        showToast("当前环境不支持自动复制，请手动选择");
+      }
+    });
+  });
+
+  /* 弹窗：投稿 */
+  var modal = document.getElementById("svxModal");
+  var modalClose = document.getElementById("svxModalClose");
+  var submitForm = document.getElementById("svxSubmitForm");
+  function openModal(title, desc) {
+    document.getElementById("svxModalTitle").textContent = title || "投稿与反馈";
+    document.getElementById("svxModalDesc").textContent = desc || "请填写基本信息，官方编辑会在十个工作日内回复。";
+    modal.classList.add("is-open");
+  }
+  function closeModal() { modal.classList.remove("is-open"); }
+  ["svxSubmitOpenHero", "svxSubmitOpenAuthor", "svxSubmitOpenBanner"].forEach(function (id) {
+    var el = document.getElementById(id);
+    if (el) el.addEventListener("click", function () { openModal("投稿与反馈", "请填写基本信息，官方编辑会在十个工作日内回复。"); });
+  });
+  if (modalClose) modalClose.addEventListener("click", closeModal);
+  if (modal) {
+    modal.addEventListener("click", function (e) { if (e.target === modal) closeModal(); });
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeModal(); });
+  }
+  if (submitForm) {
+    submitForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+      closeModal();
+      submitForm.reset();
+      showToast("提交成功，官方编辑会尽快与你联系");
+    });
+  }
+
+  /* 分享提示 */
+  var shareBtn = document.getElementById("svxShareBtn");
+  if (shareBtn) {
+    shareBtn.addEventListener("click", function () {
+      if (navigator.share) {
+        navigator.share({ title: "安全视界官方网站", text: "100款不良网站进入窗口的风险识别与处置解析" }).catch(function () {});
+      } else {
+        showToast("可复制本页链接，分享至社群或工作群");
+      }
+    });
+  }
+
+  /* 公告条收起 */
+  var noticeClose = document.getElementById("svxNoticeClose");
+  if (noticeClose) {
+    noticeClose.addEventListener("click", function () {
+      var notice = document.querySelector(".svx-notice");
+      if (notice) {
+        notice.style.display = "none";
+        document.documentElement.style.scrollPaddingTop = "64px";
+      }
+    });
+  }
+
+  /* 回到顶部 */
+  var topBtn = document.getElementById("svxTopBtn");
+  window.addEventListener("scroll", function () {
+    if (window.scrollY > 520) topBtn.classList.add("is-show");
+    else topBtn.classList.remove("is-show");
+  }, { passive: true });
+  if (topBtn) {
+    topBtn.addEventListener("click", function () {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }
+
+  /* 入场动效 */
+  var reveals = document.querySelectorAll(".svx-reveal");
+  if ("IntersectionObserver" in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("is-in");
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.08 });
+    reveals.forEach(function (el) { io.observe(el); });
+  } else {
+    reveals.forEach(function (el) { el.classList.add("is-in"); });
+  }
+
+  /* 数字滚动 */
+  var stats = document.querySelectorAll(".svx-stat b");
+  function animateNumber(el) {
+    var original = el.textContent;
+    var match = original.match(/([\d.]+)/);
+    if (!match) return;
+    var target = parseFloat(match[1]);
+    var decimals = (match[1].split(".")[1] || "").length;
+    var prefix = original.slice(0, match.index);
+    var suffix = original.slice(match.index + match[1].length);
+    var start = null;
+    var duration = 1100;
+    function step(ts) {
+      if (!start) start = ts;
+      var p = Math.min((ts - start) / duration, 1);
+      var eased = 1 - Math.pow(1 - p, 3);
+      var val = (target * eased).toFixed(decimals);
+      el.textContent = prefix + val + suffix;
+      if (p < 1) requestAnimationFrame(step);
+      else el.textContent = original;
+    }
+    requestAnimationFrame(step);
+  }
+  if ("IntersectionObserver" in window) {
+    var statIO = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          animateNumber(entry.target);
+          statIO.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.6 });
+    stats.forEach(function (el) { statIO.observe(el); });
+  }
+
+  /* 窄屏新闻/合作两列回落 */
+  var newsGrid = document.getElementById("svxNewsGrid");
+  function syncNewsGrid() {
+    if (!newsGrid) return;
+    if (window.innerWidth <= 900) {
+      newsGrid.style.gridTemplateColumns = "1fr";
+    } else {
+      newsGrid.style.gridTemplateColumns = "minmax(0,1.35fr) minmax(0,1fr)";
+    }
+  }
+  syncNewsGrid();
+  window.addEventListener("resize", syncNewsGrid);
+})();
+</script>
+</body>
+  </html>
